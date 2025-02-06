@@ -6,25 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		4D035D0F2D51C45C0067BCD7 /* ImageDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D035D0E2D51C45C0067BCD7 /* ImageDemo.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		4D035D0E2D51C45C0067BCD7 /* ImageDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDemo.swift; sourceTree = "<group>"; };
-		4DFEF92A2D4B295B0073F339 /* LabelDemoSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LabelDemoSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D035D192D5453DE0067BCD7 /* EnvironmentDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnvironmentDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		4DFEF92C2D4B295B0073F339 /* LabelDemoSwiftUI */ = {
+		4D035D1B2D5453DE0067BCD7 /* EnvironmentDemo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LabelDemoSwiftUI;
+			path = EnvironmentDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4DFEF9272D4B295B0073F339 /* Frameworks */ = {
+		4D035D162D5453DE0067BCD7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,19 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4DFEF9212D4B295B0073F339 = {
+		4D035D102D5453DE0067BCD7 = {
 			isa = PBXGroup;
 			children = (
-				4D035D0E2D51C45C0067BCD7 /* ImageDemo.swift */,
-				4DFEF92C2D4B295B0073F339 /* LabelDemoSwiftUI */,
-				4DFEF92B2D4B295B0073F339 /* Products */,
+				4D035D1B2D5453DE0067BCD7 /* EnvironmentDemo */,
+				4D035D1A2D5453DE0067BCD7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4DFEF92B2D4B295B0073F339 /* Products */ = {
+		4D035D1A2D5453DE0067BCD7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4DFEF92A2D4B295B0073F339 /* LabelDemoSwiftUI.app */,
+				4D035D192D5453DE0067BCD7 /* EnvironmentDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4DFEF9292D4B295B0073F339 /* LabelDemoSwiftUI */ = {
+		4D035D182D5453DE0067BCD7 /* EnvironmentDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4DFEF9382D4B295C0073F339 /* Build configuration list for PBXNativeTarget "LabelDemoSwiftUI" */;
+			buildConfigurationList = 4D035D272D5453E00067BCD7 /* Build configuration list for PBXNativeTarget "EnvironmentDemo" */;
 			buildPhases = (
-				4DFEF9262D4B295B0073F339 /* Sources */,
-				4DFEF9272D4B295B0073F339 /* Frameworks */,
-				4DFEF9282D4B295B0073F339 /* Resources */,
+				4D035D152D5453DE0067BCD7 /* Sources */,
+				4D035D162D5453DE0067BCD7 /* Frameworks */,
+				4D035D172D5453DE0067BCD7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				4DFEF92C2D4B295B0073F339 /* LabelDemoSwiftUI */,
+				4D035D1B2D5453DE0067BCD7 /* EnvironmentDemo */,
 			);
-			name = LabelDemoSwiftUI;
+			name = EnvironmentDemo;
 			packageProductDependencies = (
 			);
-			productName = LabelDemoSwiftUI;
-			productReference = 4DFEF92A2D4B295B0073F339 /* LabelDemoSwiftUI.app */;
+			productName = EnvironmentDemo;
+			productReference = 4D035D192D5453DE0067BCD7 /* EnvironmentDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4DFEF9222D4B295B0073F339 /* Project object */ = {
+		4D035D112D5453DE0067BCD7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					4DFEF9292D4B295B0073F339 = {
+					4D035D182D5453DE0067BCD7 = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = 4DFEF9252D4B295B0073F339 /* Build configuration list for PBXProject "LabelDemoSwiftUI" */;
+			buildConfigurationList = 4D035D142D5453DE0067BCD7 /* Build configuration list for PBXProject "EnvironmentDemo" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 4DFEF9212D4B295B0073F339;
+			mainGroup = 4D035D102D5453DE0067BCD7;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 4DFEF92B2D4B295B0073F339 /* Products */;
+			productRefGroup = 4D035D1A2D5453DE0067BCD7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4DFEF9292D4B295B0073F339 /* LabelDemoSwiftUI */,
+				4D035D182D5453DE0067BCD7 /* EnvironmentDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4DFEF9282D4B295B0073F339 /* Resources */ = {
+		4D035D172D5453DE0067BCD7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -121,18 +115,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4DFEF9262D4B295B0073F339 /* Sources */ = {
+		4D035D152D5453DE0067BCD7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D035D0F2D51C45C0067BCD7 /* ImageDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4DFEF9362D4B295C0073F339 /* Debug */ = {
+		4D035D252D5453E00067BCD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -195,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		4DFEF9372D4B295C0073F339 /* Release */ = {
+		4D035D262D5453E00067BCD7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -251,14 +244,14 @@
 			};
 			name = Release;
 		};
-		4DFEF9392D4B295C0073F339 /* Debug */ = {
+		4D035D282D5453E00067BCD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LabelDemoSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"EnvironmentDemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -271,7 +264,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.LabelDemoSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.EnvironmentDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -279,14 +272,14 @@
 			};
 			name = Debug;
 		};
-		4DFEF93A2D4B295C0073F339 /* Release */ = {
+		4D035D292D5453E00067BCD7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LabelDemoSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"EnvironmentDemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -299,7 +292,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.LabelDemoSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.EnvironmentDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -310,25 +303,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4DFEF9252D4B295B0073F339 /* Build configuration list for PBXProject "LabelDemoSwiftUI" */ = {
+		4D035D142D5453DE0067BCD7 /* Build configuration list for PBXProject "EnvironmentDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4DFEF9362D4B295C0073F339 /* Debug */,
-				4DFEF9372D4B295C0073F339 /* Release */,
+				4D035D252D5453E00067BCD7 /* Debug */,
+				4D035D262D5453E00067BCD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4DFEF9382D4B295C0073F339 /* Build configuration list for PBXNativeTarget "LabelDemoSwiftUI" */ = {
+		4D035D272D5453E00067BCD7 /* Build configuration list for PBXNativeTarget "EnvironmentDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4DFEF9392D4B295C0073F339 /* Debug */,
-				4DFEF93A2D4B295C0073F339 /* Release */,
+				4D035D282D5453E00067BCD7 /* Debug */,
+				4D035D292D5453E00067BCD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4DFEF9222D4B295B0073F339 /* Project object */;
+	rootObject = 4D035D112D5453DE0067BCD7 /* Project object */;
 }
