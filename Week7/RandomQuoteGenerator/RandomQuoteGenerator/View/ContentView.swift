@@ -9,7 +9,15 @@ import SwiftUI
 
 // VStack, HStack, ZStack
 
+// Implicit return type when no return type is defined
+func greet() {
+
+}
+
+
 struct ContentView: View {
+
+    @State var viewModel = QuoteViewModel()
 
     var body: some View {
         // Tab that shows both RandomQuotePage and QuotesListPage
@@ -23,6 +31,7 @@ struct ContentView: View {
                     Label("List", systemImage: "list.bullet")
                 }
         }
+        .environment(viewModel)
     }
 }
 

@@ -7,9 +7,9 @@
 
 import Foundation
 
-struct Quote : Identifiable{
+struct Quote : Identifiable, Hashable, Codable {
     // Field level initialization
-    let id = UUID() // Int / UUID (Universally unique identifiers)
+    let id: UUID // Int / UUID (Universally unique identifiers)
     let message: String
     let author: String
 }
